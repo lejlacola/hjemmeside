@@ -1,9 +1,9 @@
 body {
     background-image: url("baggrund.jpg");
-    background-size: cover;
+    background-size: 100%;
     background-color: #FFFAF3;
+    background-repeat: no-repeat;
 }
-
 
 
 .menu {
@@ -21,21 +21,55 @@ a {
     margin: 23px;
 }
 
-.activemenu,.portfoliomenu,.aboutmenu,.contactmenu:hover {
-    text-decoration: none;
-    
+a:hover {
+    text-decoration-color: #EFB4BA;
+    border-bottom-style: solid;
+    border-bottom-color: #EFB4BA;
 }
-
+  
 .activemenu {
     color: #EFB4BA;
     font-weight: bold;
 }
 
-.abouthome {
-    width: 100%
-    height: 100%
-    background-image: url("baggrund.jpg");
+.welcome {
+    display: grid;
+    float: ;
+    padding-top: 340px;
+    margin-left: 751px;
+    margin-bottom: 370px;
+}
+welcome {
+    
+    background-color: transparent;
+    padding-top: 340px;
+    margin-left: 751px;
+    margin-bottom: 370px;
 }
 
-background-color: #Cac1dc;
-opacity: 75%;
+
+.abouthome {  
+    width: 1250px;
+    height: 630px;
+    float: left;
+    background-color: rgb(202, 193, 220,0.75);
+    margin-left: 80px;
+    margin-bottom: 50px;
+    margin-top: 130px;
+}
+
+.hello {
+    float: right;
+    color: #EFB4BA;
+    font-family: 'Trebuchet MS';
+    font-size: 40px;
+    margin-top: -36px;
+    margin-right: -20px;
+}
+
+.me1 {
+    float: left;
+    height: 800px;
+    margin-left: -100px;
+    margin-top: -112px;
+}

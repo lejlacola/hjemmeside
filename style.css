@@ -1,19 +1,111 @@
-b odyhome {
-    background-image: url("baggrund.jpg");
-    background-size: 100%;
-    background-color: #FFFAF3;
-    background-repeat: no-repeat;
+/*web*/
+@media screen and (min-width: 480px) {
+    .bodyhome,.bodycontact {
+        background-image: url("baggrund.jpg");
+        background-size: 100%;
+        background-color: #FFFAF3;
+        background-repeat: no-repeat;
+    }   
 }
 
-/*mobile*/
+
+@media screen and (min-width: 480px) {
+.menu {
+    display: grid, inline;
+    background-color: transparent;
+    float: right;
+    font-size: 20px;
+    font-family: 'Trebuchet MS';
+    padding-top: 17px;
+}
+}
+
+
+@media screen and (min-width: 480px) {
+    .abouthome {  
+        display: flex;
+        width: 1250px;
+        height: 630px;
+        float: left;
+        background-color: rgb(202, 193, 220,0.75);
+        margin-left: 80px;
+        margin-bottom: 50px;
+        margin-top: 354px;
+    }
+    }
+    
+    
+    @media screen and (min-width: 480px) {
+    .me1 {
+        float: left;
+        height: 800px;
+        margin-left: -100px;
+        margin-top: -112px;
+    }
+    }
+    
+    @media screen and (min-width: 480px) {
+    .hello {
+        display: flex;
+        color: #EFB4BA;
+        font-family: 'Trebuchet MS';
+        font-size: 40px;
+        margin-top: -36px;
+        margin-right: -10px;
+    }
+    }
+    
+    @media screen and (min-width: 480px) {
+    .LC {
+        display: flex;
+        position: absolute;
+        color: #fffaf3;
+        font-family: 'Trebuchet MS';
+        font-size: 23px;
+        margin-top: -2px;
+    }
+    }
+
+
+
+/*alt*/
+.menulink:hover {
+    text-decoration-color: #EFB4BA;
+    border-bottom-style: solid;
+    border-bottom-color: #EFB4BA;
+}
+  
+.activemenu {
+    color: #EFB4BA;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    margin: 23px;
+}
+
+.menulink {
+    text-align: center;
+    color: #AFA5C6;
+    text-decoration: none;
+    margin: 23px;
+}
+
+/*mobile start*/
+@media screen and (max-width: 480px) {
+body {
+    background-color: #FFFAF3;
+}
+}
+
+@media screen and (max-width: 480px) {
 .bodyhome {
     background-image: url("baggrundmobil.jpg");
     background-size: 100%;
-    background-color: #FFFAF3;
     background-repeat: no-repeat;
 }
+}
 
-/*mobile menu*/
+@media screen and (max-width: 480px) {
 .menu {
     display: flex;
     flex-direction: column;
@@ -24,56 +116,48 @@ b odyhome {
     font-family: 'Trebuchet MS';
     height: auto;
     width: 50%;
+    margin-bottom: 50px;
+    margin-left: 100px;
+}
 }
 
-menu {
-    display: grid, inline;
-    background-color: transparent;
-    float: right;
-    font-size: 20px;
-    font-family: 'Trebuchet MS';
-    padding-top: 17px;
-}
 
-a:hover {
-    text-decoration-color: #EFB4BA;
-    border-bottom-style: solid;
-    border-bottom-color: #EFB4BA;
-}
-  
-.activemenu {
-    color: #EFB4BA;
-    font-weight: bold;
-}
-
-.welcome {
+@media screen and (max-width: 480px) {
+.start {
     display: flex;
     justify-content: center;
-    margin-top: 250px;
 }
 
-welcome {
-    display: grid;
-    padding-top: 340px;
-    margin-left: 751px;
-    margin-bottom: 370px;
+@media screen and (max-width: 480px) {
+.logostart {
+    width: 70%;
+}
 }
 
 
-/*mobile menu*/
+
+@media screen and (max-width: 480px) {
 .abouthome {  
     display: flex;
     width: 100%;
-    height: 500px;
+    height: 400px;
     background-color: rgb(202, 193, 220,0.75);
-    margin-top: 250px;
+    margin-top: 200px;
+    margin-left: 0px;
+}
 }
 
+@media screen and (max-width: 480px) {
 .me1 { 
-    height: 200px;
-    margin-top: 50px;
+    position: relative;
+    align-self: baseline;
+    margin-top: 20px;
+    margin-left: 220px;
+    height: 250px;
+}
 }
 
+@media screen and (max-width: 480px) {
 .hello {
     display: flex;
     position: absolute;
@@ -83,7 +167,9 @@ welcome {
     margin-top: -23px;
     margin-right: -20px;
 }
+}
 
+@media screen and (max-width: 480px) {
 .LC {
     display: flex;
     position: absolute;
@@ -91,9 +177,10 @@ welcome {
     font-family: 'Trebuchet MS';
     font-size: 23px;
     margin-top: -2px;
-    margin-left: 70px;
+}
 }
 
+@media screen and (max-width: 480px) {
 .workhome {
     display: flex;
     width: 100%;
@@ -101,7 +188,9 @@ welcome {
     background-color: rgb(202, 193, 220,0.75);
     margin-top: 100px;
 }
+}
 
+@media screen and (max-width: 480px) {
 .mywork {
     display: flex;
     position: absolute;
@@ -111,65 +200,214 @@ welcome {
     margin-top: -23px;
     margin-right: -20px;
 }
+}
 
+@media screen and (max-width: 480px) {
 .wwm {
     display: flex;
     width: 100%;
     height: 100px;
     background-color: transparent;
-    margin-top: 100px;
+    margin-top: 50px;
+    justify-content: center;
+}
 }
 
+@media screen and (max-width: 480px) {
 .wwmtext {
+    text-decoration: none;
     display: flex;
     align-items: center;
     color: black;
     font-family: 'Trebuchet MS';
     font-size: 23px;
-    padding-bottom: 100px;
-    padding-left: 100px;
+    padding-bottom: 50px;
+}
 }
 
+@media screen and (max-width: 480px) {
 .wwmtext:hover {
     color: #EFB4BA;
 }
-
-a {
-    text-align: center;
-    color: #AFA5C6;
-    text-decoration: none;
-    margin: 23px;
 }
 
+@media screen and (max-width: 480px) {
 footer {
     display: flex;
     background-color: rgb(239, 180, 186,0.8);
     padding: 50px;
 }
-/*mobilefinish*/
-
-abouthome {  
-    width: 1250px;
-    height: 630px;
-    float: left;
-    background-color: rgb(202, 193, 220,0.75);
-    margin-left: 80px;
-    margin-bottom: 50px;
-    margin-top: 130px;
 }
 
-hello {
-    float: right;
+@media screen and (max-width: 480px) {
+.icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    mix-blend-mode: overlay;
+}
+}
+
+@media screen and (max-width: 480px) {
+.icon {
+    width: 30%;
+    margin-left: 20px;
+}
+}
+
+@media screen and (max-width: 480px) {
+.icon1 {
+    width: 45%;
+    margin-left: 20px;
+    margin-top: -7px;
+    opacity: 60%;
+}
+}
+
+        /*portfolio*/
+ @media screen and (max-width: 480px) {
+.projektbox {  
+    display: flex;
+    width: 100%;
+    height: 750px;
+    background-color: rgb(202, 193, 220,0.75);
+    margin-top: 100px;
+}
+ }
+
+@media screen and (max-width: 480px) {
+.projektbox2 {  
+    display: flex;
+    width: 100%;
+    height: 1200px;
+    background-color: rgb(202, 193, 220,0.75);
+    margin-top: 100px;
+}
+}
+
+@media screen and (max-width: 480px) {
+.pheader {
+    display: flex;
     color: #EFB4BA;
     font-family: 'Trebuchet MS';
-    font-size: 40px;
-    margin-top: -36px;
+    font-size: 23px;
+    margin-top: -23px;
     margin-right: -20px;
 }
-
-me1 {
-    float: left;
-    height: 800px;
-    margin-left: -100px;
-    margin-top: -112px;
 }
+
+@media screen and (max-width: 480px) {
+.img {
+    display: flex;
+    width: 70%;
+    padding-left: 14px;
+    position: absolute;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+}
+
+@media screen and (max-width: 480px) {
+.img2 {
+    display: flex;
+    width: 70%;
+    padding-left: 14px;
+    position: absolute;
+    margin-left: 50px;
+    margin-top: 300px;
+}
+}
+
+@media screen and (max-width: 480px) {
+.img3 {
+    display: flex;
+    width: 70%;
+    padding-left: 14px;
+    position: absolute;
+    margin-left: 50px;
+    margin-top: 600px;
+}
+}
+
+@media screen and (max-width: 480px) {
+.img4 {
+    display: flex;
+    width: 70%;
+    padding-left: 14px;
+    position: absolute;
+    margin-left: 50px;
+    margin-top: 900px;
+}
+}
+
+@media screen and (max-width: 480px) {
+.text {
+    display: flex;
+    margin-top: 290px;
+    font-family: 'Trebuchet MS';
+    position: relative;
+}
+}
+
+@media screen and (max-width: 480px) {
+.text4 {
+    display: flex;
+    margin-top: 200px;
+    font-family: 'Trebuchet MS';
+    position: relative;
+}
+}
+
+@media screen and (max-width: 480px) {
+.text6 {
+    display: flex;
+    margin-top: 490px;
+    font-family: 'Trebuchet MS';
+    position: relative;
+}
+}
+
+@media screen and (max-width: 480px) {
+.projektbox6 {  
+    display: flex;
+    width: 100%;
+    height: 750px;
+    background-color: rgb(202, 193, 220,0.75);
+    margin-top: 100px;
+    padding-bottom: 400px;
+    margin-bottom: 100px;
+}
+}
+
+
+        /*about*/
+ @media screen and (max-width: 480px) {
+.box {  
+    display: flex;
+    width: 100%;
+    height: 440px;
+    background-color: rgb(202, 193, 220,0.75);
+    margin-top: 50px;
+}
+ }
+
+@media screen and (max-width: 480px) {
+.me2 { 
+    position: relative;
+    align-self: baseline;
+    margin-top: 20px;
+    margin-left: 230px;
+    height: 250px;
+}
+}
+
+        /*contact*/
+@media screen and (max-width: 480px) {
+.bodycontact {
+    background-image: url("baggrundmobil.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+}
+
+/*mobilefinish*/

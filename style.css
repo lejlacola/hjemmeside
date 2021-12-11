@@ -6,10 +6,7 @@
         background-color: #FFFAF3;
         background-repeat: no-repeat;
     }   
-}
 
-
-@media screen and (min-width: 480px) {
 .menu {
     display: grid, inline;
     background-color: transparent;
@@ -18,19 +15,14 @@
     font-family: 'Trebuchet MS';
     padding-top: 17px;
 }
-}
 
-@media screen and (min-width: 480px) {
     .start {
         display: flex;
         justify-content: center;
         padding-top: 200px;
         width: 100%;
     }
-}
 
-
-@media screen and (min-width: 480px) {
     .abouthome {  
         display: flex;
         width: 1250px;
@@ -41,10 +33,7 @@
         margin-bottom: 50px;
         margin-top: 118px;
     }
-    }
     
-    
-    @media screen and (min-width: 480px) {
     .me1 {
         display: flex;
         float: left;
@@ -53,9 +42,7 @@
         margin-left: -100px;
         margin-top: -112px;
     }
-    }
     
-    @media screen and (min-width: 480px) {
     .hello {
         display: flex;
         position: relative;
@@ -65,9 +52,7 @@
         margin-top: -36px;
         margin-left: 475px;
     }
-    }
     
-    @media screen and (min-width: 480px) {
     .LC {
         display: flex;
         position: absolute;
@@ -77,9 +62,7 @@
         margin-left: 970px;
         margin-top: -5px;
     }
-    }
-
-    @media screen and (min-width: 480px) {
+    
         .workhome {
             display: flex;
             width: 1250px;
@@ -90,9 +73,7 @@
             margin-bottom: 50px;
             margin-top: 100px;
         }
-        }
-
-        @media screen and (min-width: 480px) {
+        
             .mywork {
                 display: flex;
                 position: absolute;
@@ -102,18 +83,14 @@
                 margin-top: -36px;
                 margin-left: -10px;
             }
-            }
             
-            @media screen and (min-width: 480px) {
             .wwm {
                 display: flex;
                 width: 100%;
                 background-color: transparent;
                 justify-content: center;
             }
-            }
             
-            @media screen and (min-width: 480px) {
             .wwmtext {
                 text-decoration: none;
                 display: flex;
@@ -123,42 +100,13 @@
                 font-size: 50px;
                 padding-bottom: 50px;
             }
-            }
             
-            @media screen and (min-width: 480px) {
             .wwmtext:hover {
                 color: #EFB4BA;
             }
             }
 
-            @media screen and (min-width: 480px) {
-                footer {
-                    display: flex;
-                    background-color: rgb(239, 180, 186,0.8);
-                    padding: 50px;
-                }
-                }
-
-                @media screen and (min-width: 480px) {
-                    .icons {
-                        display: flex;
-                        flex-direction: row;
-                        mix-blend-mode: overlay;
-                    }
-                    }
-                    
-                    @media screen and (min-width: 480px) {
-                    .icon {
-                        width: 20%;
-                    }
-                    }
-                    
-                    @media screen and (min-width: 480px) {
-                    .icon1 {
-                        width: 25%;
-                        opacity: 60%;
-                    }
-                    }
+            
 
 /*portfolioweb*/
 @media screen and (min-width: 480px) {
@@ -166,43 +114,14 @@
         display: flex;
         width: 1250px;
         height: 630px;
-        float: left;
         background-color: rgb(202, 193, 220,0.75);
+        margin-top: 118px;
         margin-left: 80px;
         margin-bottom: 50px;
-        margin-top: 118px;
     }
-     }
-    
-    @media screen and (min-width: 480px) {
-    .projektbox2 {  
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        width: 1250px;
-        height: 630px;
-        float: left;
-        background-color: rgb(202, 193, 220,0.75);
-        margin-left: 80px;
-        margin-bottom: 50px;
-        margin-top: 118px;
-    }
-    }
-
-    @media screen and (min-width: 480px) {
-        .projektbox3 {  
-            display: flex;
-            width: 1250px;
-            height: 630px;
-            float: left;
-            background-color: rgb(202, 193, 220,0.75);
-            margin-left: 80px;
-            margin-top: 600px;
-        }
-         }
-    
-    @media screen and (min-width: 480px) {
-    .pheader {
+     
+         
+    .poverskrift {
         display: flex;
         color: #EFB4BA;
         font-family: 'Trebuchet MS';
@@ -210,61 +129,47 @@
         margin-top: -23px;
         margin-right: -20px;
     }
-    }
-
-    @media screen and (min-width: 480px) {
+    
     .img {
-        display: flex;
-        max-width: 100%;
+        position: absolute;
+        height: 50%;
+        margin-top: 20px;
+        margin-left: 20px;
     }
-    }
-
-    @media screen and (min-width: 480px) {
+    
         .img1 {
             display: flex;
             max-width: 50%;
         }
-        }
-    
-    @media screen and (min-width: 480px) {
+        
     .img2 {
         display: flex;
         max-width: 50%;
     }
-    }
     
-    @media screen and (min-width: 480px) {
     .img3 {
         display: flex;
         max-width: 50%;
     }
-    }
     
-    @media screen and (min-width: 480px) {
     .img4 {
         display: flex;
         max-width: 50%;
     }
-    }
     
-    @media screen and (min-width: 480px) {
     .text {
         display: flex;
-        margin-top: 290px;
         font-family: 'Trebuchet MS';
-        position: relative;
+        position:relative;
+        margin-left: 400px;
     }
-    }
-
-    @media screen and (min-width: 480px) {
+    
         .text4 {
             display: flex;
             font-family: 'Trebuchet MS';
             position: relative;
         }
-        }
-    
-    @media screen and (min-width: 480px) {
+        
     .text6 {
         display: flex;
         margin-top: 490px;
@@ -272,19 +177,55 @@
         position: relative;
     }
     }
-    
+
+    /*about*/
     @media screen and (min-width: 480px) {
-    .projektbox6 {  
-        display: flex;
-        width: 1250px;
-        height: 630px;
-        float: left;
-        background-color: rgb(202, 193, 220,0.75);
-        margin-left: 80px;
-        margin-top: 100px;
-    }
+
+        .aboutmeoverskrift {
+            display: flex;
+            color: #EFB4BA;
+            font-family: 'Trebuchet MS';
+            font-size: 40px;
+            margin-top: -36px;
+            margin-left: 1050px;
+        }
+
+        .box {  
+            display: flex;
+            margin-left: 100px;
+            max-width: 1250px;
+            width: 100%;
+            height: 625px;
+            background-color: rgb(202, 193, 220,0.75);
+            margin-top: 50px;
+            margin-bottom: 20px;
+        }
+
+.me2 { 
+    position: absolute;
+        height: 70%;
+        margin-top: -20px;
+        margin-left: -20px;
     }
 
+/*contact*/
+.contactme {
+    display: flex;
+    color: #EFB4BA;
+    font-family: 'Trebuchet MS';
+    font-size: 40px;
+    margin-top: -36px;
+    margin-left: 0px;
+}
+
+.me3 {
+    position: absolute;
+        height: 65%;
+        margin-top: 70px;
+        margin-left: 820px;
+}
+}
+/*web finish*/
 
 
 /*alt*/
@@ -309,22 +250,36 @@
     margin: 23px;
 }
 
+/*footer*/
+footer {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(239, 180, 186,0.8);
+    padding: 30px;
+}
+
+.icons {
+    mix-blend-mode: overlay;
+    display: flex;
+    justify-content: space-around;
+}
+
+.icon {
+    width: 30%;
+}
+
 /*mobile start*/
 @media screen and (max-width: 480px) {
 body {
     background-color: #FFFAF3;
 }
-}
 
-@media screen and (max-width: 480px) {
 .bodyhome {
     background-image: url("baggrundmobil.jpg");
     background-size: 100%;
     background-repeat: no-repeat;
 }
-}
 
-@media screen and (max-width: 480px) {
 .menu {
     display: flex;
     flex-direction: column;
@@ -338,7 +293,7 @@ body {
     margin-bottom: 50px;
     margin-left: 100px;
 }
-}
+
 
 
 @media screen and (max-width: 480px) {
@@ -347,15 +302,10 @@ body {
     justify-content: center;
 }
 
-@media screen and (max-width: 480px) {
 .logostart {
     width: 70%;
 }
-}
 
-
-
-@media screen and (max-width: 480px) {
 .abouthome {  
     display: flex;
     width: 100%;
@@ -364,9 +314,7 @@ body {
     margin-top: 200px;
     margin-left: 0px;
 }
-}
 
-@media screen and (max-width: 480px) {
 .me1 {
     display: flex; 
     position: relative;
@@ -375,10 +323,8 @@ body {
     margin-left: 200px;
     height: 250px;
 }
-}
 
-@media screen and (max-width: 480px) {
-.hello {
+.hello,.aboutmeoverskrift,.contactme {
     display: flex;
     position: absolute;
     color: #EFB4BA;
@@ -387,9 +333,7 @@ body {
     margin-top: -23px;
     margin-right: -20px;
 }
-}
 
-@media screen and (max-width: 480px) {
 .LC {
     display: flex;
     position: absolute;
@@ -398,9 +342,7 @@ body {
     font-size: 23px;
     margin-top: -2px;
 }
-}
 
-@media screen and (max-width: 480px) {
 .workhome {
     display: flex;
     width: 100%;
@@ -408,9 +350,7 @@ body {
     background-color: rgb(202, 193, 220,0.75);
     margin-top: 100px;
 }
-}
 
-@media screen and (max-width: 480px) {
 .mywork {
     display: flex;
     position: absolute;
@@ -420,9 +360,7 @@ body {
     margin-top: -23px;
     margin-right: -20px;
 }
-}
 
-@media screen and (max-width: 480px) {
 .wwm {
     display: flex;
     width: 100%;
@@ -431,9 +369,7 @@ body {
     margin-top: 50px;
     justify-content: center;
 }
-}
 
-@media screen and (max-width: 480px) {
 .wwmtext {
     text-decoration: none;
     display: flex;
@@ -443,70 +379,20 @@ body {
     font-size: 23px;
     padding-bottom: 50px;
 }
-}
 
-@media screen and (max-width: 480px) {
 .wwmtext:hover {
     color: #EFB4BA;
 }
-}
-
-@media screen and (max-width: 480px) {
-footer {
-    display: flex;
-    background-color: rgb(239, 180, 186,0.8);
-    padding: 50px;
-}
-}
-
-@media screen and (max-width: 480px) {
-.icons {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    mix-blend-mode: overlay;
-}
-}
-
-@media screen and (max-width: 480px) {
-.icon {
-    width: 30%;
-    margin-left: 20px;
-}
-}
-
-@media screen and (max-width: 480px) {
-.icon1 {
-    width: 45%;
-    margin-left: 20px;
-    margin-top: -7px;
-    opacity: 60%;
-}
-}
 
         /*portfolio*/
- @media screen and (max-width: 480px) {
-.projektbox,.projektbox3 {  
-    display: flex;
-    width: 100%;
-    height: 750px;
-    background-color: rgb(202, 193, 220,0.75);
-    margin-top: 100px;
-}
- }
-
-@media screen and (max-width: 480px) {
-.projektbox2 {  
+.projektbox {  
     display: flex;
     width: 100%;
     height: 1200px;
     background-color: rgb(202, 193, 220,0.75);
-    margin-top: 100px;
-}
 }
 
-@media screen and (max-width: 480px) {
-.pheader {
+.poverskrift {
     display: flex;
     color: #EFB4BA;
     font-family: 'Trebuchet MS';
@@ -514,10 +400,7 @@ footer {
     margin-top: -23px;
     margin-right: -20px;
 }
-}
 
-
-@media screen and (max-width: 480px) {
 .img,.img1 {
     display: flex;
     width: 70%;
@@ -526,9 +409,7 @@ footer {
     margin-left: 50px;
     margin-top: 20px;
 }
-}
 
-@media screen and (max-width: 480px) {
 .img2 {
     display: flex;
     width: 70%;
@@ -537,9 +418,7 @@ footer {
     margin-left: 50px;
     margin-top: 300px;
 }
-}
 
-@media screen and (max-width: 480px) {
 .img3 {
     display: flex;
     width: 70%;
@@ -548,9 +427,7 @@ footer {
     margin-left: 50px;
     margin-top: 600px;
 }
-}
 
-@media screen and (max-width: 480px) {
 .img4 {
     display: flex;
     width: 70%;
@@ -559,71 +436,48 @@ footer {
     margin-left: 50px;
     margin-top: 900px;
 }
-}
 
-@media screen and (max-width: 480px) {
 .text {
     display: flex;
     margin-top: 290px;
     font-family: 'Trebuchet MS';
     position: relative;
 }
-}
 
-@media screen and (max-width: 480px) {
 .text4 {
     display: flex;
     margin-top: 200px;
     font-family: 'Trebuchet MS';
     position: relative;
 }
-}
 
-@media screen and (max-width: 480px) {
 .text6 {
     display: flex;
     margin-top: 490px;
     font-family: 'Trebuchet MS';
     position: relative;
 }
-}
-
-@media screen and (max-width: 480px) {
-.projektbox6 {  
-    display: flex;
-    width: 100%;
-    height: 750px;
-    background-color: rgb(202, 193, 220,0.75);
-    margin-top: 100px;
-    padding-bottom: 400px;
-    margin-bottom: 100px;
-}
-}
 
 
-        /*about*/
- @media screen and (max-width: 480px) {
-.box {  
+
+        /*about+contact*/
+
+.box,.boxcontact {  
     display: flex;
     width: 100%;
     height: 440px;
     background-color: rgb(202, 193, 220,0.75);
-    margin-top: 50px;
+    margin-top: -40px;
 }
- }
 
-@media screen and (max-width: 480px) {
-.me2 { 
+.me2,.me3 { 
     position: relative;
     align-self: baseline;
     margin-top: 20px;
     margin-left: 230px;
     height: 250px;
 }
-}
 
-        /*contact*/
-@media screen and (max-width: 480px) {
 .bodycontact {
     background-image: url("baggrundmobil.jpg");
     background-size: 100%;

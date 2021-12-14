@@ -6,9 +6,11 @@ body {
 .logo {
     position: absolute;
 }
+
 .logoimage {
     width: 10%;
 }
+
 .menulink:hover {
     text-decoration-color: #EFB4BA;
     border-bottom-style: solid;
@@ -46,7 +48,7 @@ body {
     text-decoration: underline;
 }
 
-/*footer*/
+    /*footer*/
 footer {
     display: flex;
     flex-direction: column;
@@ -63,6 +65,7 @@ footer {
 .icon {
     width: 30%;
 }
+
 /*mobile start*/
 @media screen and (max-width: 480px) {
     
@@ -75,6 +78,7 @@ footer {
     .logo {
         margin-top: 40px;
     }
+    
     .menu {
         display: flex;
         flex-direction: column;
@@ -86,10 +90,8 @@ footer {
         height: auto;
         width: 50%;
         margin-bottom: 50px;
-        margin-left: 100px;
+        margin-left: 80px;
     }
-    
-    
     
     @media screen and (max-width: 480px) {
     .start {
@@ -106,7 +108,7 @@ footer {
         width: 100%;
         height: 400px;
         background-color: rgb(202, 193, 220,0.75);
-        margin-top: 200px;
+        margin-top: 50px;
         margin-left: 0px;
     }
     
@@ -115,8 +117,8 @@ footer {
         position: relative;
         align-self: baseline;
         margin-top: 20px;
-        margin-left: 200px;
-        height: 250px;
+        margin-left: 140px;
+        height: 200px;
     }
     
     .hello,.aboutmeoverskrift,.contactme {
@@ -138,13 +140,13 @@ footer {
         margin-top: -2px;
     }
 
-    .textintro,.textcontact {   
+    .textintro {   
         width: 40%;
         text-align: center;
         margin-top: 50px;
         font-family: 'Trebuchet MS';
         font-size: 12px;
-        margin-left: -400px;
+        margin-left: -310px;
     }
     
     .workhome {
@@ -152,7 +154,7 @@ footer {
         width: 100%;
         height: 400px;
         background-color: rgb(202, 193, 220,0.75);
-        margin-top: 100px;
+        margin-top: 70px;
     }
     
     .mywork {
@@ -164,20 +166,27 @@ footer {
         margin-top: -23px;
         margin-right: -20px;
     }
+
     .galleristart {
-        margin-top: 150px;
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        position:absolute;
+        margin-left: 80px;
     }
+
     .imgstart {
-        height: 30%;
+        width: 60%;
         mix-blend-mode:luminosity;
     }
 
     .textworkstart {
         text-align: center;
-        margin-left: -300px;
-        margin-top: 300px;
         font-family: 'Trebuchet MS';
         font-size: 12px;
+        margin-top: 330px;
+        margin-left: 110px;
     }
     
     .wwm {
@@ -203,7 +212,7 @@ footer {
         color: #EFB4BA;
     }
     
-            /*portfolio*/
+        /*portfolio*/
     
     .projektbox {  
         display: flex;
@@ -236,10 +245,9 @@ footer {
         justify-content: center;
         position:absolute;
         margin-top: 20px;
-        margin-left: 90px;
+        margin-left: 70px;
     }
 
-    /*video*/
     .textvideo {
         font-family: 'Trebuchet MS';
         position: absolute;
@@ -250,8 +258,9 @@ footer {
     }
 
     .video {
-        height: 40%;
-        margin-top: 20px;
+        height: 30%;
+        margin-top: 30px;
+        margin-left: -10px;
     }
 
     .img,.img2,.img3,.img4,.typo1,.typo2,.typo3 {
@@ -260,31 +269,40 @@ footer {
     
     .img1 {
         position: absolute;
-        height: 42%;
+        height: 32%;
         margin-top: 20px;
-        margin-left: 20px;
+        margin-left: 10px;
     }
 
     .img5 {
         position: absolute;
         height: 42%;
         margin-top: 20px;
-        margin-left: 100px;
+        margin-left: 50px;
     }
 
-    .textp1,.textp6,.textp2 {
+    .textp1,.textp2 {
         font-family: 'Trebuchet MS';
         position: absolute;
         width: 93%;
         text-align: center;
-        margin-top: 345px;
+        margin-top: 270px;
     }
+
     .textp3 {
         font-family: 'Trebuchet MS';
         position: absolute;
         width: 93%;
         text-align: center;
-        margin-top:700px;
+        margin-top: 600px;
+    }
+
+    .textp6 {
+        font-family: 'Trebuchet MS';
+        position: absolute;
+        width: 93%;
+        text-align: center;
+        margin-top: 350px;
     }
 
     .up {
@@ -295,14 +313,14 @@ footer {
         border-radius: 20%;
         margin-top: -30px;
         margin-bottom: 30px;
-        margin-left: 200px;
+        margin-left: 150px;
     }
-            /*about+contact*/
+        /*about+contact*/
     
     .box {  
         display: flex;
         width: 100%;
-        height: 440px;
+        height: 600px;
         background-color: rgb(202, 193, 220,0.75);
         margin-top: -40px;
     }
@@ -311,15 +329,15 @@ footer {
         position: relative;
         align-self: baseline;
         margin-top: 20px;
-        margin-left: 230px;
-        height: 250px;
+        margin-left: 80px;
+        height: 200px;
     }
     
     .textabout {   
-        width: 45%;
+        width: 90%;
         text-align: center;
-        margin-left: -410px;
-        margin-top: 10px;
+        margin-left: -220px;
+        margin-top: 250px;
         font-family: 'Trebuchet MS';
         font-size: 12px;
     }
@@ -333,14 +351,23 @@ footer {
     .boxcontact {
         display: flex;
         width: 100%;
-        height: 300px;
+        height: 450px;
         background-color: rgb(202, 193, 220,0.75);
         margin-top: -40px;
     }
-    
+
+    .textcontact {   
+        width: 100%;
+        text-align: center;
+        margin-top: 250px;
+        font-family: 'Trebuchet MS';
+        font-size: 12px;
+        margin-left: -240px;
     }
     
-    /*mobilefinish*/}
+}
+    
+/*mobilefinish*/}
 
 /*web*/
 @media screen and (min-width: 480px) {
@@ -351,14 +378,13 @@ footer {
         background-repeat: no-repeat;
     }   
 
-.menu {
-    display: grid, inline;
-    background-color: transparent;
-    float: right;
-    font-size: 20px;
-    font-family: 'Trebuchet MS';
-    margin-top: 17px;
-}
+    .menu {
+        background-color: transparent;
+        float: right;
+        font-size: 20px;
+        font-family: 'Trebuchet MS';
+        margin-top: 17px;
+    }
 
     .start {
         display: flex;
@@ -416,73 +442,73 @@ footer {
         font-size: 20px;
     }
     
-        .workhome {
-            display: flex;
-            width: 1300px;
-            height: 630px;
-            float: left;
-            background-color: rgb(202, 193, 220,0.75);
-            margin-left: 80px;
-            margin-bottom: 50px;
-            margin-top: 100px;
-        }
+    .workhome {
+        display: flex;
+        width: 1300px;
+        height: 630px;
+        float: left;
+        background-color: rgb(202, 193, 220,0.75);
+        margin-left: 80px;
+        margin-bottom: 50px;
+        margin-top: 100px;       
+    }
         
-            .mywork {
-                display: flex;
-                position: absolute;
-                color: #EFB4BA;
-                font-family: 'Trebuchet MS';
-                font-size: 40px;
-                margin-top: -36px;
-            }
-            .galleristart {
-                display: flex;
-                flex-direction: row;
-                margin-top: 200px;
-                margin-left: 25px;
-            }
-            .imgstart {
-                height: 50.2%;
-                mix-blend-mode:luminosity;
-            }
-            .imgstart:hover {
-                mix-blend-mode: normal;
-            }
+    .mywork {
+        display: flex;
+        position: absolute;
+        color: #EFB4BA;
+        font-family: 'Trebuchet MS';
+        font-size: 40px;
+        margin-top: -36px;
+    }
+    
+    .galleristart {
+        display: flex;
+        flex-direction: row;
+        margin-top: 200px;
+        margin-left: 25px;
+    }
 
-            .textworkstart {
-                text-align: center;
-                margin-left: -650px;
-                margin-top: 500px;
-                font-family: 'Trebuchet MS';
-                font-size: 20px;
-            }
-            
-            .wwm {
-                display: flex;
-                width: 100%;
-                background-color: transparent;
-                justify-content: center;
-            }
-            
-            .wwmtext {
-                text-decoration: none;
-                display: flex;
-                align-items: center;
-                color: black;
-                font-family: 'Trebuchet MS';
-                font-size: 50px;
-                padding-bottom: 50px;
-            }
-            
-            .wwmtext:hover {
-                color: #EFB4BA;
-            }
-            }
+    .imgstart {
+        height: 50.2%;
+        mix-blend-mode:luminosity;
+    }
 
-            
+    .imgstart:hover {
+        mix-blend-mode: normal;
+    }
 
-/*portfolioweb*/
-@media screen and (min-width: 480px) {
+    .textworkstart {
+        text-align: center;
+        margin-left: -650px;
+        margin-top: 500px;
+        font-family: 'Trebuchet MS';
+        font-size: 20px;
+    }
+            
+    .wwm {
+        display: flex;
+        width: 100%;
+        background-color: transparent;
+        justify-content: center;
+    }
+            
+    .wwmtext {
+        text-decoration: none;
+        display: flex;
+        align-items: center;
+        color: black;
+        font-family: 'Trebuchet MS';
+        font-size: 50px;
+        padding-bottom: 50px;
+    }
+            
+    .wwmtext:hover {
+        color: #EFB4BA;
+    }
+
+    /*portfolioweb*/
+
     .projektbox,.projektbox2 {  
         display: flex;
         width: 1250px;
@@ -519,7 +545,7 @@ footer {
         font-size: 20px;
     }
     
-                /*typografi*/
+        /*typografi*/
     .typografi {
         display: flex;
         flex-direction: row;
@@ -527,21 +553,26 @@ footer {
         align-items: center;
         margin-left: -800px;
     }
+
     .typo1,.typo2,.typo3 {
         max-width: 30%;
         transition: 2s;
     }
+
     .typo1:hover {
         max-width: 90%;
         margin-left: 850px;
     }
+
     .typo2:hover {
         max-width: 90%;
     }
+
     .typo3:hover {
         max-width: 90%;
         margin-right: 850px;
     }
+
     .textp2 {
         width: 100%;
         font-family: 'Trebuchet MS';
@@ -551,7 +582,7 @@ footer {
         font-size: 20px;
     }
          
-    /*video*/
+        /*video*/
     .textvideo {
         width: 100%;
         font-family: 'Trebuchet MS';
@@ -569,7 +600,7 @@ footer {
     }
 
 
-                /*portaits*/
+        /*portaits*/
     .images {
         display: flex;
         flex-direction: row;
@@ -577,27 +608,33 @@ footer {
         align-items: center;
         margin-left: -800px;
     }
+
     .img,.img2,.img3,.img4 {
         max-width: 20%;
         transition: 2s;
     }
+
     .img:hover {
         max-width: 76%;
         margin-left: 750px;
     }
+
     .img2:hover {
         position: relative;
         max-width: 76%;
         margin-right: -250px;
     }
+
     .img3:hover {
         max-width: 76%;
         margin-left: -250px;
     }
+
     .img4:hover {
         max-width: 76%;
         margin-right: 750px;
     }
+
     .textp3 {
         width: 100%;
         font-family: 'Trebuchet MS';
@@ -607,12 +644,13 @@ footer {
         font-size: 20px;
     }
         
-    /*illustraion nr.2*/
+        /*illustraion nr.2*/
     .img5 {
         height: 70%;
         margin-top:150px;
         margin-left: 250px;
     }
+
     .textp6 {
         font-family: 'Trebuchet MS';
         margin-left: -510px;
@@ -642,28 +680,28 @@ footer {
 
     /*about*/
 
-        .aboutmeoverskrift {
-            display: flex;
-            color: #EFB4BA;
-            font-family: 'Trebuchet MS';
-            font-size: 40px;
-            margin-top: -36px;
-            margin-left: 1050px;
-        }
+    .aboutmeoverskrift {
+        display: flex;
+        color: #EFB4BA;
+        font-family: 'Trebuchet MS';
+        font-size: 40px;
+        margin-top: -36px;
+        margin-left: 1050px;
+    }
 
-        .box,.boxcontact {  
-            display: flex;
-            margin-left: 100px;
-            max-width: 1250px;
-            width: 100%;
-            height: 625px;
-            background-color: rgb(202, 193, 220,0.75);
-            margin-top: 50px;
-            margin-bottom: 20px;
-        }
+    .box,.boxcontact {  
+        display: flex;
+        margin-left: 100px;
+        max-width: 1250px;
+        width: 100%;
+        height: 625px;
+        background-color: rgb(202, 193, 220,0.75);
+        margin-top: 50px;
+        margin-bottom: 20px;
+    }
 
-.me2 { 
-    position: absolute;
+    .me2 { 
+        position: absolute;
         height: 70%;
         margin-top: -20px;
         margin-left: -20px;
@@ -678,31 +716,31 @@ footer {
         font-size: 20px;
     }
 
-/*contact*/
-.contactme {
-    display: flex;
-    color: #EFB4BA;
-    font-family: 'Trebuchet MS';
-    font-size: 40px;
-    margin-top: -36px;
-    margin-left: 0px;
-}
+    /*contact*/
+    .contactme {
+        display: flex;
+        color: #EFB4BA;
+        font-family: 'Trebuchet MS';
+        font-size: 40px;
+        margin-top: -36px;
+        margin-left: 0px;
+    }
 
-.me3 {
-    position: absolute;
+    .me3 {
+        position: absolute;
         height: 65%;
         margin-top: 70px;
         margin-left: 820px;
-}
+    }
 
-.textcontact {   
-    width: 55%;
-    text-align: center;
-    margin-left: -180px;
-    margin-top: 200px;
-    font-family: 'Trebuchet MS';
-    font-size: 20px;
-}
+    .textcontact {   
+        width: 55%;
+        text-align: center;
+        margin-left: -180px;
+        margin-top: 200px;
+        font-family: 'Trebuchet MS';
+        font-size: 20px;
+    }
 
 }
 /*web finish*/

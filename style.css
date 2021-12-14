@@ -177,7 +177,7 @@ footer {
         margin-left: -300px;
         margin-top: 300px;
         font-family: 'Trebuchet MS';
-        font-size: 20px;
+        font-size: 12px;
     }
     
     .wwm {
@@ -237,6 +237,21 @@ footer {
         position:absolute;
         margin-top: 20px;
         margin-left: 90px;
+    }
+
+    /*video*/
+    .textvideo {
+        font-family: 'Trebuchet MS';
+        position: absolute;
+        width: 90%;
+        text-align: center;
+        margin-top: 300px;
+        margin-left: 10px;
+    }
+
+    .video {
+        height: 40%;
+        margin-top: 20px;
     }
 
     .img,.img2,.img3,.img4,.typo1,.typo2,.typo3 {
@@ -396,7 +411,7 @@ footer {
         width: 50%;
         text-align: center;
         margin-left: -650px;
-        margin-top: 160px;
+        margin-top: 180px;
         font-family: 'Trebuchet MS';
         font-size: 20px;
     }
@@ -498,9 +513,10 @@ footer {
 
     .textp1 {
         font-family: 'Trebuchet MS';
-        margin-left: -675px;
+        margin-left: -750px;
         margin-top: 40px;
         text-align: center;
+        font-size: 20px;
     }
     
                 /*typografi*/
@@ -530,10 +546,28 @@ footer {
         width: 100%;
         font-family: 'Trebuchet MS';
         text-align: center;
-        margin-top: 60px;
+        margin-top: 20px;
         margin-left: 200px;
+        font-size: 20px;
     }
-           
+         
+    /*video*/
+    .textvideo {
+        width: 100%;
+        font-family: 'Trebuchet MS';
+        text-align: center;
+        font-size: 20px;
+        margin-top: 20px;
+        margin-left: -90px;
+    }
+
+    .video {
+        height: 70%;
+        align-self: center;
+        margin-top: 50px;
+        margin-left: -1000px;
+    }
+
 
                 /*portaits*/
     .images {
@@ -568,8 +602,9 @@ footer {
         width: 100%;
         font-family: 'Trebuchet MS';
         text-align: center;
-        margin-top: 60px;
+        margin-top: 40px;
         margin-left: 300px;
+        font-size: 20px;
     }
         
     /*illustraion nr.2*/
@@ -580,9 +615,10 @@ footer {
     }
     .textp6 {
         font-family: 'Trebuchet MS';
-        margin-left: -450px;
+        margin-left: -510px;
         margin-top: 40px;
         text-align: center;
+        font-size: 20px;
     }
 
     .up {
@@ -637,9 +673,9 @@ footer {
         width: 65%;
         text-align: center;
         margin-left: -810px;
-        margin-top: 100px;
+        margin-top: 70px;
         font-family: 'Trebuchet MS';
-        font-size: 18px;
+        font-size: 20px;
     }
 
 /*contact*/
@@ -663,9 +699,9 @@ footer {
     width: 55%;
     text-align: center;
     margin-left: -180px;
-    margin-top: 150px;
+    margin-top: 200px;
     font-family: 'Trebuchet MS';
-    font-size: 25px;
+    font-size: 20px;
 }
 
 }
